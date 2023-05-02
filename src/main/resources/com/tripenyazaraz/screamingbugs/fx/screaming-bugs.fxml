@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.canvas.Canvas?>
+<HBox alignment="CENTER" xmlns:fx="http://javafx.com/fxml" fx:controller="com.tripenyazaraz.screamingbugs.fx.ScreamingBugsController">
+    <VBox>
+        <Canvas fx:id="canvas">
+
+        </Canvas>
+    </VBox>
+    <VBox alignment="CENTER" spacing="20.0">
+
+        <Button text="Pause" onAction="#onButtonPause"/>
+        <Button text="Release" onAction="#onButtonRelease"/>
+
+    </VBox>
+</HBox>
