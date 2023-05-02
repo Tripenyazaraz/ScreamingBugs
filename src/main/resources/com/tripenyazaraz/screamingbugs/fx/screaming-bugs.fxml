@@ -7,11 +7,9 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.canvas.Canvas?>
 <HBox alignment="CENTER" xmlns:fx="http://javafx.com/fxml" fx:controller="com.tripenyazaraz.screamingbugs.fx.ScreamingBugsController">
-    <VBox>
-        <Canvas fx:id="canvas">
+    <Canvas fx:id="canvas" width="1000" height="1000">
 
-        </Canvas>
-    </VBox>
+    </Canvas>
     <VBox alignment="CENTER" spacing="20.0">
 
         <Button text="Pause" onAction="#onButtonPause"/>
